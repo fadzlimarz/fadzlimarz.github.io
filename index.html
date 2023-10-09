@@ -1,124 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <title>My Website for Github Pages</title>
-    <style>
-        body {
-            font-family: Roboto, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-        header {
-            background-color: #2373af;
-            color: white;
-            padding: 10px;
-        }
-
-        nav ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-        }
-
-        nav li {
-            display: inline;
-            margin-right: 20px;
-        }
-
-        a {
-            color: blue;
-        }
-
-        .grid-container {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
-            margin: 20px;
-        }
-
-        main {
-            grid-column: 1 / span 2;
-        }
-
-        section {
-            margin-bottom: 20px;
-        }
-
-        aside {
-            float: right;
-            width: 30%;
-            margin: 20px;
-            background-color: #f2f2f2;
-            padding: 10px;
-        }
-
-        footer {
-            clear: both;
-            background-color: #2373af;
-            color: white;
-            text-align: center;
-            padding: 10px;
-        }
-
-        img {
-            max-width: 10%;
-            height: auto;
-            display: block;
-            margin: 20px auto;
-        }
-    </style>
-</head>
-
-<body>
+  <body>
     <header>
-        <h1>Welcome to My Website</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-            </ul>
-        </nav>
+      <h1>Welcome to My Website</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
     </header>
 
     <div class="grid-container">
-        <main>
-            <section>
-                <h2>About Us</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin aliquam nunc eu finibus malesuada. Etiam bibendum
-                    venenatis felis elementum rhoncus. Sed id risus accumsan dolor commodo sollicitudin ac sed ligula. Sed malesuada odio ac
-                    tellus viverra eleifend. Proin placerat nisi eget sollicitudin sodales. Maecenas et enim eget augue molestie lacinia.
-                    Aliquam hendrerit ligula id nisl pretium varius ac vel ante. Donec vel est nec turpis accumsan placerat. Fusce cursus
-                    fermentum massa, nec facilisis purus sodales a.
-                </p>
-            </section>
+      <main>
+        <section>
+          <h2>About Us</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+            aliquam nunc eu finibus malesuada. Etiam bibendum venenatis felis
+            elementum rhoncus. Sed id risus accumsan dolor commodo sollicitudin
+            ac sed ligula. Sed malesuada odio ac tellus viverra eleifend. Proin
+            placerat nisi eget sollicitudin sodales. Maecenas et enim eget augue
+            molestie lacinia. Aliquam hendrerit ligula id nisl pretium varius ac
+            vel ante. Donec vel est nec turpis accumsan placerat. Fusce cursus
+            fermentum massa, nec facilisis purus sodales a.
+          </p>
+        </section>
 
-            <section>
-                <h2>Digi Intro</h2>
-                <h3>Layouts</h3>
-                <ul>
-            <li><a href="digi_intro/layout_tests/normal/index.html">Normal Layout</a></li>
-            <li><a href="digi_intro/layout_tests/grid/index.html">Grid Layout</a></li>
-            <li><a href="digi_intro/layout_tests/flexbox/index.html">Flexbox Layout</a></li>
-            <li><a href="digi_intro/layout_tests/float/index.html">Float Layout</a></li>
-                </ul>
-            </section>
-        </main>
+        <section>
+          <h2>Digi Intro</h2>
+          <h3>Layouts</h3>
+          <ul>
+            <li>
+              <a href="digi_intro/layout_tests/normal/index.html"
+                >Normal Layout</a
+              >
+            </li>
+            <li>
+              <a href="digi_intro/layout_tests/grid/index.html">Grid Layout</a>
+            </li>
+            <li>
+              <a href="digi_intro/layout_tests/flexbox/index.html"
+                >Flexbox Layout</a
+              >
+            </li>
+            <li>
+              <a href="digi_intro/layout_tests/float/index.html"
+                >Float Layout</a
+              >
+            </li>
+          </ul>
+        </section>
+      </main>
     </div>
 
     <aside>
-        <h2>News</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <h2>News</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </aside>
 
     <footer>
-        <p>&copy; 2023 Sample Web Page</p>
+      <p>&copy; 2023 Sample Web Page</p>
     </footer>
 
-    <img src="https://images.unsplash.com/photo-1538332576228-eb5b4c4de6f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
-        alt="Helsinki Cathedral under autumn sunset">
-</body>
-
+    <img
+      src="https://images.unsplash.com/photo-1538332576228-eb5b4c4de6f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+      alt="Helsinki Cathedral under autumn sunset"
+    />
+  </body>
 </html>
