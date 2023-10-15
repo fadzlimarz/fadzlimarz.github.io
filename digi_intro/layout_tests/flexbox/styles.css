@@ -10,13 +10,15 @@ p {
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
   background-color: #2373af;
   color: #fff;
   padding: 10px;
-  text-align: center;
 }
 
 .flex-container {
@@ -40,7 +42,7 @@ header {
 /* Add more flexbox-specific styles here */
 
 img {
-  max-width: 40%;
+  max-width: 100%;
   height: auto;
   display: block;
   margin: 20px auto;

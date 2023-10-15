@@ -10,6 +10,9 @@ p {
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -24,6 +27,7 @@ main {
   margin: 20px auto;
   padding: 20px;
   background-color: #fff;
+  flex-grow: 1;
 }
 
 /* Float-specific styles */
