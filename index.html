@@ -1,90 +1,74 @@
 <!DOCTYPE html>
+<!-- This declaration specifies the document type as HTML5 -->
+
 <html lang="en">
+  <!-- The opening of the HTML document with 'en' as the language attribute -->
+
   <head>
-    <title>My Website for Github Pages</title>
-    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <!-- Defines the character encoding for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Meta tags for responsive design and setting the initial scale for mobile devices -->
+
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <!-- Link to an external CSS stylesheet for styling the HTML content -->
+
+    <title>Explore The Future of Mobility | Hayabusa ハヤブサ</title>
+    <!-- The title of the webpage that appears in the browser tab -->
   </head>
 
   <body>
     <header>
-      <h1>Welcome to My Website</h1>
+      <div class="logo">
+        <a href="index.html"><strong>Hayabusa ハヤブサ</strong></a>
+      </div>
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="collaborators.html">Our Collaborators</a></li>
         </ul>
       </nav>
     </header>
+    <!-- This section defines the header of the webpage, including the logo and navigation menu -->
 
-    <div class="grid-container">
-      <main>
-        <section>
-          <h2>Digi Intro</h2>
-          <h3>Layouts</h3>
-          <ul>
-            <li>
-              <a href="digi_intro/layout_tests/normal/index.html"
-                >Normal Layout</a
-              >
-            </li>
-            <li>
-              <a href="digi_intro/layout_tests/grid/index.html">Grid Layout</a>
-            </li>
-            <li>
-              <a href="digi_intro/layout_tests/flexbox/index.html"
-                >Flexbox Layout</a
-              >
-            </li>
-            <li>
-              <a href="digi_intro/layout_tests/float/index.html"
-                >Float Layout</a
-              >
-            </li>
-          </ul>
-          <!-- Media Query -->
-          <h3>Media Query Tryouts</h3>
-          <ul>
-            <li>
-              <a
-                href="digi_intro/media_query_tryouts/romance_of_the_rose/index.html"
-                >Romance of The Rose</a
-              >
-            </li>
-            <li>
-              <a href="digi_intro/media_query_tryouts/cicero/index.html"
-                >Cicero</a
-              >
-            </li>
-          </ul>
-        </section>
-
+    <main class="wrapper">
+      <section class="hero">
         <img
-          src="https://images.unsplash.com/photo-1538332576228-eb5b4c4de6f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
-          alt="Helsinki Cathedral under autumn sunset"
+          src="/assets/images/patrick-langwallner-5UXeieG7YI4-unsplash.webp"
+          alt="Hayabusa Electric Vehicle"
         />
-        <section>
-          <h2>About Us</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-            aliquam nunc eu finibus malesuada. Etiam bibendum venenatis felis
-            elementum rhoncus. Sed id risus accumsan dolor commodo sollicitudin
-            ac sed ligula. Sed malesuada odio ac tellus viverra eleifend. Proin
-            placerat nisi eget sollicitudin sodales. Maecenas et enim eget augue
-            molestie lacinia. Aliquam hendrerit ligula id nisl pretium varius ac
-            vel ante. Donec vel est nec turpis accumsan placerat. Fusce cursus
-            fermentum massa, nec facilisis purus sodales a.
-          </p>
-        </section>
-      </main>
-    </div>
+        <!-- Image element with 'alt' attribute for accessibility -->
 
-    <aside>
-      <h2>News</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </aside>
+        <article class="hero-content">
+          <h2>Welcome to Hayabusa ハヤブサ</h2>
+          <h1>Explore the Future of Mobility</h1>
+          <p>Your journey to sustainable mobility begins here.</p>
+          <a href="products.html" class="btn">Learn More</a>
+          <!-- Heading, subheading, description, and a button for exploring products -->
+        </article>
+      </section>
+    </main>
+    <!-- The main content area containing the hero section with an image and content -->
 
     <footer>
-      <p>&copy; 2023 Sample Web Page</p>
+      <hr />
+      <section class="footer-content">
+        <p>&copy; 2023 Hayabusa.</p>
+        <!-- Copyright notice -->
+        <p>
+          Contact Us: Email - info@hayabusa-ev.com | Phone - +1 (123) 456-7890
+        </p>
+        <!-- Contact information -->
+        <p>
+          Old
+          <a href="/old_website/index.html" title="Digi Intro">Digi Intro</a>
+          page.
+        </p>
+        <!-- Link to the old site -->
+      </section>
     </footer>
+    <!-- The footer section, typically containing copyright and contact details -->
   </body>
 </html>
