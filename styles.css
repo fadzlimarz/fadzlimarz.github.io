@@ -93,10 +93,15 @@ nav a:visited {
 nav ul {
   list-style: none;
   display: flex;
+  padding: 0;
 }
 
 nav li {
   margin-right: 20px;
+}
+
+nav li:last-child {
+  margin-right: 0; /* Remove margin from the last li element */
 }
 
 nav a {
@@ -123,6 +128,7 @@ nav a:hover {
 
   nav {
     order: 2;
+    font-size: medium;
   }
 }
 
@@ -191,6 +197,8 @@ footer p {
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin: 40px auto; /* Same margin as the body */
+  padding: 0; /* Reset padding ? */
 }
 
 .hero-content {
@@ -234,22 +242,16 @@ footer p {
   text-align: left;
 }
 
-.text-left img {
-  width: 1em;
-  height: 1em;
-  margin-right: 0.25em;
-}
-
 @media (min-width: 768px) {
   .hero {
     flex-direction: row;
   }
 
   .image-right {
-    float: left;
+    float: right;
     width: 55%;
     overflow: hidden;
-    margin-left: 1em;
+    margin: 0 0 0 1em; /* Top Right Bottom Left */
     text-align: left;
   }
 
