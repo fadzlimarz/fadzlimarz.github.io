@@ -421,7 +421,7 @@ tbody td {
   }
 
   span.highlight {
-    background-color: #2f7ed9;
+    background-color: #0a4c98; /* Background color in dark mode */
   }
 
   aside {
