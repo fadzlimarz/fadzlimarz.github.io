@@ -197,8 +197,7 @@ footer p {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 40px auto; /* Same margin as the body */
-  padding: 0; /* Reset padding ? */
+  margin-bottom: 40px; /* Same padding as the body */
 }
 
 .hero-content {
@@ -262,6 +261,20 @@ footer p {
   .text-left {
     float: left;
     width: 45%;
+  }
+}
+
+.testimonials {
+  margin-bottom: 40px;
+}
+
+.sustainability {
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 20px;
+
+  @media (prefers-color-scheme: dark) {
+    border: 1px solid #334155;
   }
 }
 
