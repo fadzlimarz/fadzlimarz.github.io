@@ -190,7 +190,7 @@ footer p {
 }
 
 .image-right {
-  order: 2;
+  order: 1;
   float: none;
   width: 100%;
   text-align: left;
@@ -202,7 +202,7 @@ footer p {
 }
 
 .text-left {
-  order: 1;
+  order: 2;
   float: none;
   width: 100%;
   text-align: left;
@@ -214,6 +214,7 @@ footer p {
   }
 
   .image-right {
+    order: 2;
     float: right;
     width: 55%;
     overflow: hidden;
@@ -222,6 +223,7 @@ footer p {
   }
 
   .text-left {
+    order: 1;
     float: left;
     width: 45%;
   }
