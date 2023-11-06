@@ -196,6 +196,11 @@ footer p {
   text-align: left;
 }
 
+.image-right img {
+  width: 100%;
+  height: auto;
+}
+
 .text-left {
   order: 1;
   float: none;
@@ -214,10 +219,6 @@ footer p {
     overflow: hidden;
     margin: 0 0 0 1em; /* Top Right Bottom Left */
     text-align: left;
-  }
-
-  .image-right img {
-    width: 100%;
   }
 
   .text-left {
@@ -377,10 +378,6 @@ tbody td {
   border-radius: 5px;
   padding: 20px;
   border: 1px solid #e2e8f0;
-
-  @media (prefers-color-scheme: dark) {
-    border: 1px solid #334155;
-  }
 }
 
 .collaborator img {
