@@ -1,6 +1,6 @@
 # Hayabusa - Website Project
 
-<img src="https://fadzlimarz.github.io/assets/logo.svg" alt="Hayabusa" class="hayabusa-logo" width="16" height="16" /> **Hayabusa**
+<img src="https://fadzlimarz.github.io/assets/logo.svg" alt="lightning bolt" class="hayabusa-logo" width="16" height="16" /> **Hayabusa**
 
 ## Overview
 
